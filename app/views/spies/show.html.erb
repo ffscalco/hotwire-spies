@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @spy.name %>
+</p>
+
+<p>
+  <strong>Mission:</strong>
+  <%= @spy.mission %>
+</p>
+
+<%= link_to 'Edit', edit_spy_path(@spy) %> |
+<%= link_to 'Back', spies_path %>
