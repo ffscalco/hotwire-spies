@@ -10,3 +10,5 @@ To run this code locally you'll need Ruby, Rails, and Yarn installed. Then, clon
 rails db:create db:migrate
 rails s
 ```
+
+I've installed the gem [Devise](https://github.com/heartcombo/devise) to use the `current_user` in the frames
