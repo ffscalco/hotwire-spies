@@ -74,6 +74,6 @@ class SpiesController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def spy_params
-      params.require(:spy).permit(:name, :mission)
+      params.require(:spy).permit(:mission).merge(name: current_user.email)
     end
 end
