@@ -5,4 +5,6 @@ Rails.application.routes.draw do
       post 'clearance'
     end
   end  
+
+  root "spies#index"
 end
